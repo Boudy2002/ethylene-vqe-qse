@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: >-
+  If you use this repository, please cite the software and its accompanying
+  report using the metadata below.
+title: "Spin-Resolved VQE-QSE Simulation of Ethylene"
+type: software
+authors:
+  - family-names: "AbouShmeila"
+    given-names: "Abdelrahman A."
+    orcid: "https://orcid.org/0009-0000-2320-6042"
+version: "1.0.0"
+date-released: 2026-09-08
+license: MIT
+abstract: >-
+  A validated VQE and quantum subspace expansion workflow for the ground and
+  excited states of planar and 90-degree-twisted ethylene. The repository
+  includes active-space Hamiltonian construction, CASCI validation, ideal and
+  noise-aware simulation, error mitigation, IBM Quantum hardware execution,
+  classical benchmarking, and a butadiene extension.
+keywords:
+  - variational quantum eigensolver
+  - quantum subspace expansion
+  - quantum chemistry
+  - ethylene
+  - excited states
+  - error mitigation
+  - Qiskit
+  - IBM Quantum
+preferred-citation:
+  type: report
+  authors:
+    - family-names: "AbouShmeila"
+      given-names: "Abdelrahman A."
+      orcid: "https://orcid.org/0009-0000-2320-6042"
+  title: "Spin-Resolved VQE-QSE Simulation of Ethylene"
+  year: 2026
+  month: 9
+  notes: "Alexandria Quantum Hackathon 2026 submission."
