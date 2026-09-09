@@ -10,8 +10,8 @@ The workflow validates the mapped qubit Hamiltonians against independent PySCF C
 
 | File | Description |
 | --- | --- |
-| [`ethylene_vqse_AQH(2).ipynb`](ethylene_vqse_AQH%282%29.ipynb) | Executed Jupyter notebook containing molecular construction, Hamiltonian mapping, VQE, QSE, noise simulation, IBM Quantum execution, classical benchmarks, figures, and a butadiene extension. |
-| [`AQH.pdf`](AQH.pdf) | Three-page final report with the audited methodology, results, limitations, and references. |
+| [`ethylene_vqse_AQH.ipynb`](ethylene_vqse_AQH%282%29.ipynb) | Executed Jupyter notebook containing molecular construction, Hamiltonian mapping, VQE, QSE, noise simulation, IBM Quantum execution, classical benchmarks, figures, and a butadiene extension. |
+| [`Report.pdf`](Report.pdf) | Three-page final report with the audited methodology, results, limitations, and references. |
 
 ## Scientific workflow
 
@@ -105,7 +105,7 @@ On Windows PowerShell, activate the environment with:
 Start Jupyter and open the executed notebook:
 
 ```bash
-jupyter lab "ethylene_vqse_AQH(2).ipynb"
+jupyter lab "ethylene_vqse_AQH.ipynb"
 ```
 
 Run the cells in order. The full workflow includes several classical electronic-structure calculations and the butadiene pilot, so execution time depends strongly on the machine and can exceed 30 minutes.
