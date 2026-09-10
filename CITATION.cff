@@ -4,6 +4,7 @@ message: >-
   report using the metadata below.
 title: "Spin-Resolved VQE-QSE Simulation of Ethylene"
 type: software
+repository-code: "https://github.com/Boudy2002/ethylene-vqe-qse"
 authors:
   - family-names: "AbouShmeila"
     given-names: "Abdelrahman A."
