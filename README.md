@@ -10,7 +10,7 @@ The workflow validates the mapped qubit Hamiltonians against independent PySCF C
 
 | File | Description |
 | --- | --- |
-| [`ethylene_vqse_AQH.ipynb`](ethylene_vqse_AQH%282%29.ipynb) | Executed Jupyter notebook containing molecular construction, Hamiltonian mapping, VQE, QSE, noise simulation, IBM Quantum execution, classical benchmarks, figures, and a butadiene extension. |
+| [`ethylene_vqse_AQH.ipynb`](ethylene_vqse_AQH.ipynb) | Executed Jupyter notebook containing molecular construction, Hamiltonian mapping, VQE, QSE, noise simulation, IBM Quantum execution, classical benchmarks, figures, and a butadiene extension. |
 | [`Report.pdf`](Report.pdf) | Three-page final report with the audited methodology, results, limitations, and references. |
 
 ## Scientific workflow
@@ -127,7 +127,7 @@ The PDF is the authoritative, post-run-audited record. Two outputs in the curren
 1. The twisted CAS(2,4) selector displays a neighboring 6.557 eV root; state matching gives the final $S_1-S_0$ value of 6.523527 eV.
 2. The IBM hardware table printed in the notebook differs from the final audited Table 2 in the report. The report excludes an observable-layout error in an earlier noise branch and a root-index mismatch in a noisy-QSE branch.
 
-For a fully self-contained reproducibility release, the notebook should be updated to implement the final state-matching and hardware-audit path, then rerun from a clean environment. Until that update is committed, cite the numerical claims from `AQH.pdf` and treat affected notebook cells as pre-audit provenance.
+For a fully self-contained reproducibility release, the notebook should be updated to implement the final state-matching and hardware-audit path, then rerun from a clean environment. Until that update is committed, cite the numerical claims from `Report.pdf` and treat affected notebook cells as pre-audit provenance.
 
 ## Generated outputs
 
